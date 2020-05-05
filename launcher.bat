@@ -1,13 +1,9 @@
-:: #Change directory here to match file location:
-
-cd C:\Users\tubxt2p\Documents\Python\python-projects\disc-file-app
-
-
+:: Assign current working directory (root directory) to variable X
+set X=%CD%
 
 :: #Change file name here
-
-python disc_file_app.py
 ::python tests.py
+python disc_file_app.py
 
 
 
